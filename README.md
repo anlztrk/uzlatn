@@ -16,9 +16,9 @@ In particular, the letters **Oʻ**, **Gʻ**, and the modifier letter **ʼ** use 
 
 | Letter | Unicode | Notes |
 |--------|---------|-------|
-| Oʻ     | U+004F + U+02BB | O with a proper modifier letter turned comma above |
-| Gʻ     | U+0047 + U+02BB | G with a proper modifier letter turned comma above |
-| ʼ      | U+02BC           | Modifier letter apostrophe (not U+0027 or U+2019) |
+| Oʻ     | U+004F + U+02BB | O with modifier letter turned comma |
+| Gʻ     | U+0047 + U+02BB | G with modifier letter turned comma |
+| ʼ      | U+02BC           | Modifier letter apostrophe |
 
 These ensure correct search behavior, collation, and text compatibility.
 
