@@ -47,11 +47,13 @@ All images are in `.webp` format for clarity and small file size.
 
 ## 📥 Download
 
-The latest (and final) release is available under **GitHub Releases**:
+The latest release is available under **GitHub Releases**:
 
 👉 **[Download the installer](../../releases/latest)**
 
-Choose the `.exe` installer.
+Use the `.exe` installer.
+
+The layout is stable and feature-complete, so the current release is expected to remain final.
 
 ---
 
