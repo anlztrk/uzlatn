@@ -1,5 +1,7 @@
 # Uzbek (Latin) Keyboard Layout for Windows
 
+![Uzbek (Latin) keyboard layout](diagrams/uzbek-latin.webp)
+
 This project provides a complete **Uzbek (Latin)** keyboard layout for Microsoft Windows.  
 Windows currently includes a built-in layout for **Uzbek Cyrillic**, but does not offer an equivalent for the **Uzbek Latin alphabet**.  
 This project fills that gap with an official-standard Latin layout that installs system-wide, works in all applications, and behaves consistently with Windows’ existing Uzbek Cyrillic layout.
@@ -114,12 +116,7 @@ If you notice a character placement problem, feel free to open an issue.
 
 ---
 
-## 📷 Screenshots
-
-### Uzbek (Latin) Layout  
-![Uzbek (Latin) keyboard layout](diagrams/uzbek-latin.webp)
-
-### Latin–Cyrillic Comparison Layout  
+## Latin–Cyrillic Layouts Comparison  
 ![Dual-labeled Uzbek Latin-Cyrillic keyboard layouts](diagrams/dual-labeled.webp)
 
 ---
