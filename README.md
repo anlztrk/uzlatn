@@ -1,5 +1,7 @@
 # Uzbek (Latin) Keyboard Layout for Windows
 
+![Uzbek (Latin) keyboard layout](diagrams/uzbek-latin.webp)
+
 This project provides a complete **Uzbek (Latin)** keyboard layout for Microsoft Windows.  
 Windows currently includes a built-in layout for **Uzbek Cyrillic**, but does not offer an equivalent for the **Uzbek Latin alphabet**.  
 This project fills that gap with an official-standard Latin layout that installs system-wide, works in all applications, and behaves consistently with Windows’ existing Uzbek Cyrillic layout.
@@ -14,9 +16,9 @@ In particular, the letters **Oʻ**, **Gʻ**, and the modifier letter **ʼ** use 
 
 | Letter | Unicode | Notes |
 |--------|---------|-------|
-| Oʻ     | U+004F + U+02BB | O with a proper modifier letter turned comma above |
-| Gʻ     | U+0047 + U+02BB | G with a proper modifier letter turned comma above |
-| ʼ      | U+02BC           | Modifier letter apostrophe (not U+0027 or U+2019) |
+| Oʻ     | U+004F + U+02BB | O with modifier letter turned comma |
+| Gʻ     | U+0047 + U+02BB | G with modifier letter turned comma |
+| ʼ      | U+02BC           | Modifier letter apostrophe |
 
 These ensure correct search behavior, collation, and text compatibility.
 
@@ -45,11 +47,13 @@ All images are in `.webp` format for clarity and small file size.
 
 ## 📥 Download
 
-The latest (and final) release is available under **GitHub Releases**:
+The latest release is available under **GitHub Releases**:
 
 👉 **[Download the installer](../../releases/latest)**
 
-Choose the `.exe` installer.
+Use the `.exe` installer.
+
+The layout is stable and feature-complete, so the current release is expected to remain final.
 
 ---
 
@@ -58,7 +62,7 @@ Choose the `.exe` installer.
 1. Download the installer from the link above.  
 2. Run `setup.exe`.  
 3. Log out and back in (or restart Windows) if required.  
-4 Select **Uzbek (Latin)** from the keyboard list if it did not happen automatically.
+4. Select **Uzbek (Latin)** from the keyboard list if it did not happen automatically.
 
 The layout will now be available system-wide.
 
@@ -114,12 +118,7 @@ If you notice a character placement problem, feel free to open an issue.
 
 ---
 
-## 📷 Screenshots
-
-### Uzbek (Latin) Layout  
-![Uzbek (Latin) keyboard layout](diagrams/uzbek-latin.webp)
-
-### Latin–Cyrillic Comparison Layout  
+## Latin–Cyrillic Layouts Comparison  
 ![Dual-labeled Uzbek Latin-Cyrillic keyboard layouts](diagrams/dual-labeled.webp)
 
 ---
