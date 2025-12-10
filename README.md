@@ -9,7 +9,7 @@ This project fills that gap with an official-standard Latin layout that installs
 ## ✨ Features
 
 ### ✔ Follows the Official Uzbek Latin Alphabet  
-The layout implements the standard O‘zbek lotin alifbosi without deviations or substitutions.  
+The layout implements the standard Uzbek Latin alphabet without deviations or substitutions.  
 In particular, the letters **Oʻ**, **Gʻ**, and the modifier letter **ʼ** use the correct Unicode characters:
 
 | Letter | Unicode | Notes |
@@ -31,11 +31,9 @@ Any ASCII characters that do not exist in the Cyrillic layout are placed on:
 The layout is built with **Microsoft Keyboard Layout Creator (MSKLC)** and includes:
 
 - `EXE` installer  
-- `MSI` installer  
-- the original `.KLC` source file  
-- full MSKLC build output (optional)
+- the original `.KLC` source file
 
-### ✔ Includes Visual Diagrams  
+### ✔ Includes Diagrams  
 Two diagrams are included:
 
 - the **Uzbek Latin layout itself**  
@@ -51,17 +49,16 @@ The latest (and final) release is available under **GitHub Releases**:
 
 👉 **[Download the installer](../../releases/latest)**
 
-Choose either the `.exe` or `.msi` installer.
+Choose the `.exe` installer.
 
 ---
 
 ## 🛠 Installation
 
 1. Download the installer from the link above.  
-2. Run `UzbekLatinSetup.exe` or `UzbekLatinSetup.msi`.  
+2. Run `setup.exe`.  
 3. Log out and back in (or restart Windows) if required.  
-4. Add the layout in *Settings → Time & Language → Language → Keyboard options*.  
-5. Select **Uzbek (Latin)** from the keyboard list.
+4 Select **Uzbek (Latin)** from the keyboard list if it did not happen automatically.
 
 The layout will now be available system-wide.
 
@@ -70,17 +67,27 @@ The layout will now be available system-wide.
 ## 📁 Included Files
 
 ```
-src/
-  UzbekLatin.klc                # Keyboard Layout Creator source file
-
-installer/
-  UzbekLatinSetup.exe           # Standard installer
-  UzbekLatinSetup.msi           # Windows Installer package
-  full-msklc-output/            # (optional) complete MSKLC build folder
-
 diagrams/
   uzbek-latin.webp              # Main layout diagram
   dual-labeled.webp             # Latin + Cyrillic comparison diagram
+  
+src/
+  uzlatn.klc                    # Keyboard Layout Creator source file
+
+uzlatn/
+  setup.exe                       # Install executable
+  uzLatn_amd64.msi               
+  uzLatn_i386.msi
+  uzLatn_ia64.msi
+  amd64/
+    uzLatn.dll  
+  i386/
+    uzLatn.dll
+  ia64/
+    uzLatn.dll
+  wow64/
+    uzLatn.dll
+
 ```
 
 ---
@@ -88,7 +95,6 @@ diagrams/
 ## 🔧 Technical Notes
 
 - Built using **Microsoft Keyboard Layout Creator (MSKLC)**.  
-- Uses the correct Uzbek Latin characters, including U+02BB and U+02BC.  
 - Fully compatible with all modern Windows versions (Windows 7 → Windows 11).  
 - Behaves identically to the built-in Uzbek Cyrillic layout for all non-letter keys.  
 - Additional punctuation and ASCII symbols are provided via `AltGr`.
@@ -97,7 +103,7 @@ diagrams/
 
 ## 📜 License
 
-This project is released under the **MIT License**, allowing free reuse, modification, and distribution.
+This project is released under the **MIT License**.
 
 ---
 
@@ -111,10 +117,10 @@ If you notice a character placement problem, feel free to open an issue.
 ## 📷 Screenshots
 
 ### Uzbek (Latin) Layout  
-*(diagram goes here)*
+![Uzbek (Latin) keyboard layout](diagrams/uzlatn.webp)
 
 ### Latin–Cyrillic Comparison Layout  
-*(diagram goes here)*
+![Dual-labeled Uzbek Latin-Cyrillic keyboard layouts](diagrams/dual-labeled.webp)
 
 ---
 
@@ -122,6 +128,7 @@ If you notice a character placement problem, feel free to open an issue.
 
 Windows users working in Uzbek often switch between:
 
+- the **English (US) keyboard layout** Windows defaults to for Latin-script Uzbek
 - **built-in Uzbek Cyrillic layout**, and  
 - **custom or improvised Latin solutions** using incorrect apostrophe characters, or mismatched punctuation.
 
