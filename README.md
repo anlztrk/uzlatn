@@ -117,7 +117,7 @@ If you notice a character placement problem, feel free to open an issue.
 ## 📷 Screenshots
 
 ### Uzbek (Latin) Layout  
-![Uzbek (Latin) keyboard layout](diagrams/uzlatn.webp)
+![Uzbek (Latin) keyboard layout](diagrams/uzbek-latin.webp)
 
 ### Latin–Cyrillic Comparison Layout  
 ![Dual-labeled Uzbek Latin-Cyrillic keyboard layouts](diagrams/dual-labeled.webp)
