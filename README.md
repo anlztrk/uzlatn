@@ -60,7 +60,7 @@ Choose the `.exe` installer.
 1. Download the installer from the link above.  
 2. Run `setup.exe`.  
 3. Log out and back in (or restart Windows) if required.  
-4 Select **Uzbek (Latin)** from the keyboard list if it did not happen automatically.
+4. Select **Uzbek (Latin)** from the keyboard list if it did not happen automatically.
 
 The layout will now be available system-wide.
 
