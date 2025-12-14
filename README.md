@@ -35,14 +35,6 @@ The layout is built with **Microsoft Keyboard Layout Creator (MSKLC)** and inclu
 - `EXE` installer  
 - the original `.KLC` source file
 
-### ✔ Includes Diagrams  
-Two diagrams are included:
-
-- the **Uzbek Latin layout itself**  
-- a **dual-labeled comparison layout** showing both Latin and Cyrillic
-
-All images are in `.webp` format for clarity and small file size.
-
 ---
 
 ## 📥 Download
